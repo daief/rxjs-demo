@@ -1,1 +1,1 @@
-import './practices/p01';
+import './practices/p02';
