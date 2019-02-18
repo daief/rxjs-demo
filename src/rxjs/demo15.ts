@@ -1,5 +1,5 @@
 /**
- * 缓存
+ * 缓存 -- Part1
  *  - buffer、bufferTime、bufferCount、bufferWhen、bufferToggle
  */
 import {interval, fromEvent} from 'rxjs';
