@@ -6,3 +6,10 @@ export const now = (computed = true) => {
 };
 
 export const Log = (...args: any[]) => console.log(...args) as undefined;
+
+export const createButton = (text: string) => {
+  const b = document.createElement<'button'>('button');
+  b.setAttribute('class', 'ui button');
+  b.textContent = text;
+  return b;
+};
