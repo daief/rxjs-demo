@@ -5,6 +5,7 @@
  *  这完全符合函数式编程“数据不可变”的要求。
  * 弹珠图 Marble diagrams
  *  查看网址，https://rxmarbles.com/
+ *  后续结果图数字标注也占用一个单位
  */
 
 import { interval } from 'rxjs';
@@ -28,8 +29,8 @@ source$.subscribe((x) => console.log(x));
 /**
  * 上例可用下图表示：
  * ```md
- *  source: -----0-----1-----2-----3--...
+ *  source: ----0----1----2----3--...
  *          map(x => x * x)
- *  newest: -----0-----1-----4-----9--...
+ *  newest: ----0----1----4----9--...
  * ```
  */
